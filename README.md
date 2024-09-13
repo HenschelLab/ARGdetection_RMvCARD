@@ -2,7 +2,10 @@
 ## 0. Minimal demo usage for simple RGI output visualization
 * clone this repository
 * change into directory
-* install jupyter with python libraries pandas, numpy and seaborn. This can be quickly done with anaconda installed and `conda env create -f rgimini.yml` (assumunig you have done the RGI jobs already, otherwise use rgi.yaml, which includes the RGI dependencies, however double check with RGI installation instructions)
+* install jupyter with python libraries pandas, numpy and seaborn. This can be quickly done with anaconda installed and
+`conda install -y jupyter pandas numpy scipy seaborn`
+or
+`conda env create -f rgimini.yaml` (assumunig you have done the RGI jobs already, otherwise use rgi.yaml, which includes the RGI dependencies, however double check with RGI installation instructions)
 * start a jupyter notebook
 * open rgivisual_demo.ipynb
 * follow the instructions in the notebook
